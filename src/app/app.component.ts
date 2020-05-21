@@ -10,14 +10,15 @@ import { pipe } from 'rxjs';
 export class AppComponent {
   nombre = 'Capitan América';
   pipe = true;
-  nombre2: string = 'ruBEN PORtela gaRCIa de BLAS';
+  nombre2 = 'ruBEN PORtela gaRCIa de BLAS';
   personajes: string[] = ['Ironman', 'Spiderman', 'Thor', 'Loki', 'Groot'];
   PI: number = Math.PI;
   porcentaje = 0.234;
   salario = 1234.5;
   fecha: Date = new Date();
-  idioma: string = 'fr';
-  videoUrl: string = 'https://www.youtube.com/embed/gkgVGWUjkdA';
+  activar = true;
+  idioma = 'fr';
+  videoUrl = 'https://www.youtube.com/embed/gkgVGWUjkdA';
   heroe = {
     nombre: 'Logan',
     clave: 'Wolverine',
